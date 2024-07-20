@@ -1,4 +1,4 @@
-import requests
+"import requests
 import random
 import os
 import uuid
@@ -424,12 +424,12 @@ def setting():
 	hc = input('  \033[1;31m CHOCE -> ')
 	
 	print('')
-	if hc in ['1','01']:
+	if hc in ['2','02']:
 		method.append('mobile')
 	elif hc in ['']:
 		print(' CHOICE NUMBER ')
 		setting()
-	elif hc in ['2','02']:
+	elif hc in ['1','01']:
 		method.append('crack1')
 	
 	
