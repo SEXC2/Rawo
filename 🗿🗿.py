@@ -123,12 +123,12 @@ princp=[]
 
 
 try:
-	prox= requests.get('https://raw.githubusercontent.com/SEXC2/proxs/main/proxy1.txt').text
+	prox= requests.get('https://raw.githubusercontent.com/SEXC2/proxs/main/proxy2.txt').text
 	open('.prox.txt','w').write(prox) 
 except Exception as e:
 	prox=open('.prox.txt','r').read().splitlines()
 try:
-	prox= requests.get('https://raw.githubusercontent.com/SEXC2/proxs/main/proxy3.txt').text
+	prox= requests.get('https://raw.githubusercontent.com/SEXC2/proxs/main/proxy4.txt').text
 	open('.prox.txt','w').write(prox) 
 except Exception as e:
 	prox=open('.prox.txt','r').read().splitlines()
